@@ -21,32 +21,6 @@ Customize the CSS:
 
 The core styling is found in the style.css file. You can adjust properties like border-radius, box-shadow, and background to fit your design preferences.
 The .sign class is used to create the shape overlay, and the .sign i class styles the content within this overlay.
-Example Code
-Here's a snippet of the CSS used to create the card:
 
-css
-Copy code
-.container .card {
-    height: 100%;
-    position: absolute;
-    width: 100%;
-    padding: 25px;
-    border-radius: 25px;
-    backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-    backface-visibility: hidden;
-}
-.sign i {
-    color: #000;
-    font-size: 12px;
-    position: absolute;
-    right: -15px;
-    background: white;
-    padding: 4px 6px;
-    border-radius: 4px;
-    z-index: 1;
-}
 Contributing
 Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request
