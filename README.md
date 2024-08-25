@@ -24,7 +24,7 @@ To use this design in your project:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/repository-name.git
+   git clone https://github.com/arjundipunath/atm-card.git
    ```
 
 2. **Open the HTML File**:
